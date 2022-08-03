@@ -1,0 +1,97 @@
+*{
+  background-color: black;
+
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  background-color:  black;
+  color: gray;
+
+
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  background-color:  black;
+  color:whitesmoke;
+}
+p{
+  font-size: medium;
+  background-color:  black;
+  font-family: 'Roboto', sans-serif;
+}
+img{
+  background-size: cover;
+  background-image: url("images/IMG_8180\ Small.jpeg");
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  border:solid black 2px;
+  box-shadow:
+  4.5px 4.5px 3.6px rgba(0, 0, 0, 1)
+;
+}
+a{
+background-color: whitesmoke;
+color: black;
+text-decoration: none;
+transition: color 0.5s;
+}
+a:hover{
+  color: aquamarine;
+
+}
+.card{
+  width: 60%;
+  margin: 50px auto;
+}
+.card.one{
+background-color:  black;
+color: aliceblue;
+padding: 50px;
+text-align: center;
+box-shadow: rgba(248, 246, 246, 0.35) 0px 5px 15px;
+}
+
+.card.two{
+background-color:whitesmoke;
+padding: 50px;
+text-align: center;
+}
+li{
+display: inline-block;
+list-style: none;
+
+}
+i {
+  background-color:whitesmoke;
+font-size:50px;
+}
+.button{
+  background-color: rgb(144, 144, 191);
+  border-radius: 10%;
+  color:whitesmoke;
+  padding: 5px;
+  height:130px;
+  width: 130px;
+}
+ul{
+  background-color:whitesmoke;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
